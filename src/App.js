@@ -17,7 +17,7 @@ const column = [
 function App() {
   const [postComment, setPostComment] = useState([]);
   useEffect(()=>{
-    axios.get(`https://graph.facebook.com/v16.0/{page-secret}_{post-secret}/comments?access_token={access-token}`).then((res)=>{
+    axios.get(https://graph.facebook.com/v16.0/100082326030769_398222889598576/comments?access_token=EAANSrp9YZBc8BOxjwBhn55ljQXB7cwS3OC0fJAZAfNQj6Bklnm4wassDfs7tzdT1mLCl8awpGRNhHbIZCwZBtDDd02D9AYsEHGuPn8kgZBZAmZASuUBjtyGmxNGgWknuAihmoi8SXqrrXwZBK9EhtOKNZCJupAPE4XYxMBQ2n7tisbMInilUyHhanTo2HiHxBYW0ZD`).then((res)=>{
       setPostComment(res.data.data);
     }).catch(err=>console.log(err))
   },[]);
