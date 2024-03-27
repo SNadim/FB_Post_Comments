@@ -22,7 +22,10 @@ function App() {
     }).catch(err=>console.log(err))
   },[]);
   return (
-    <div className="App">
+    <div className="App" style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: '20px'}}>
+      <h1>Facebook comments tracker!</h1>
+      <span><a href='https://www.facebook.com/profile.php?id=100082326030769'>Facebook Page Link</a></span>
+      
       <Box sx={{ width: "100%", height: 450 }} className="companies-grid">
       <DataGrid
         rows={postComment}
