@@ -1,5 +1,5 @@
 # Site Link
-[Preview]([https://pages.github.com/](https://66040455f481dc9980e71c0a--tangerine-croissant-f6c735.netlify.app/)).
+[Preview](https://66040455f481dc9980e71c0a--tangerine-croissant-f6c735.netlify.app/).
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
